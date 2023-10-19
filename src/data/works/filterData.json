@@ -1,0 +1,24 @@
+{
+    "filterData": [
+        {
+            "id": 1,
+            "title": "All",
+            "filter": "*"
+        },
+        {
+            "id": 2,
+            "title": "Android Native",
+            "filter": ".android, .native"
+        },
+        {
+            "id": 3,
+            "title": "Flutter",
+            "filter": ".flutter"
+        },
+        {
+            "id": 4,
+            "title": "Other",
+            "filter": ".other"
+        }
+    ]
+}

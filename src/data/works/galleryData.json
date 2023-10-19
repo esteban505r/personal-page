@@ -1,0 +1,35 @@
+{
+    "galleryData": [
+        {
+            "id": 1,
+            "title": "Mi Clima",
+            "category": "gallery-item-visible android",
+            "imgSrc": "assets/img/placeholder/miclima.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Focus Friend",
+            "category": "gallery-item-visible flutter",
+            "imgSrc": "assets/img/placeholder/focus_friend.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Organize College",
+            "category": "gallery-item-visible product",
+            "imgSrc": "assets/img/placeholder/organize_college.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Pokemon Statistics",
+            "category": "gallery-item-visible culture",
+            "imgSrc": "assets/img/placeholder/pokemon.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Cuerpo Fit - Entrena Conmigo",
+            "category": "gallery-item-visible culture",
+            "imgSrc": "assets/img/placeholder/cuerpo-fit.jpg"
+        }
+     
+    ]
+}

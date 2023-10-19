@@ -1,0 +1,97 @@
+{
+    "worksInsideData": [
+        {
+            "id": 1,
+            "title": "Mi Clima",
+            "images": ["assets/img/placeholder/miclima.jpg"],
+            "features": [
+                {
+                    "id": 1,
+                    "description": "Displays current weather."
+                },
+                {
+                    "id": 2,
+                    "description": "Incorporates animations."
+                },
+                {
+                    "id": 3,
+                    "description": "Built with Flutter and Riverpod."
+                }
+            ],
+            "description": "An app for displaying current weather with delightful animations."
+        },
+        {
+            "id": 2,
+            "title": "Focus Friend",
+            "images": ["assets/img/placeholder/focus_friend.jpg"],
+            "features": [
+                {
+                    "id": 1,
+                    "description": "Offers time and task management with notifications."
+                },
+                {
+                    "id": 2,
+                    "description": "Tracks behavior and suggests leisure activities."
+                },
+                {
+                    "id": 3,
+                    "description": "Developed with Flutter, Bloc, Firebase, and clean architecture."
+                }
+            ],
+            "description": "A comprehensive time and task management app that helps you stay focused and organized."
+        },
+        {
+            "id": 3,
+            "title": "Organize College",
+            "images": ["assets/img/placeholder/organize_college.jpg"],
+            "features": [
+                {
+                    "id": 1,
+                    "description": "Manages college subjects and schedules."
+                },
+                {
+                    "id": 2,
+                    "description": "Calculates grades needed to pass the semester."
+                },
+                {
+                    "id": 3,
+                    "description": "Developed with Flutter, Cubit, and Sqflite."
+                }
+            ],
+            "description": "A handy app for managing college subjects, schedules, and academic progress."
+        },
+        {
+            "id": 4,
+            "title": "Pokemon Statistics",
+            "images": ["assets/img/placeholder/pokemon.jpg"],
+            "features": [
+                {
+                    "id": 1,
+                    "description": "Explores detailed Pokemon statistics with style."
+                },
+                {
+                    "id": 2,
+                    "description": "Developed using Android Native, Jetpack Compose, Hilt, coroutines, retrofit, and MVVM."
+                }
+            ],
+            "description": "An app for discovering in-depth Pokemon statistics and captivating animations."
+        },
+        {
+            "id": 5,
+            "title": "Cuerpo Fit - Entrena Conmigo",
+            "images": ["assets/img/placeholder/cuerpo-fit.jpg"],
+            "features": [
+                {
+                    "id": 1,
+                    "description": "Provides high-quality workout routines and coaching."
+                },
+                {
+                    "id": 2,
+                    "description": "Enables progress tracking and direct communication with coaches."
+                }
+            ],
+            "description": "A top-notch fitness app for accessing premium workout routines, tracking progress, and connecting with personal coaches."
+        }
+    ]
+    
+}
