@@ -3,7 +3,7 @@
         {
             "id": 1,
             "title": "Mi Clima",
-            "images": ["assets/img/placeholder/miclima.jpg"],
+            "images": ["miclima.png","miclima_2.png"],
             "features": [
                 {
                     "id": 1,
@@ -15,7 +15,7 @@
                 },
                 {
                     "id": 3,
-                    "description": "Built with Flutter and Riverpod."
+                    "description": "Built with Flutter and Provider."
                 }
             ],
             "description": "An app for displaying current weather with delightful animations."
@@ -23,7 +23,7 @@
         {
             "id": 2,
             "title": "Focus Friend",
-            "images": ["assets/img/placeholder/focus_friend.jpg"],
+            "images": ["focus_friend.png","focus_friend_2.png"],
             "features": [
                 {
                     "id": 1,
@@ -35,7 +35,7 @@
                 },
                 {
                     "id": 3,
-                    "description": "Developed with Flutter, Bloc, Firebase, and clean architecture."
+                    "description": "Developed with Flutter, Riverpod, and Firebase."
                 }
             ],
             "description": "A comprehensive time and task management app that helps you stay focused and organized."
@@ -43,7 +43,7 @@
         {
             "id": 3,
             "title": "Organize College",
-            "images": ["assets/img/placeholder/organize_college.jpg"],
+            "images": ["organize_college.png","organize_college_2.png"],
             "features": [
                 {
                     "id": 1,
@@ -79,7 +79,7 @@
         {
             "id": 5,
             "title": "Cuerpo Fit - Entrena Conmigo",
-            "images": ["assets/img/placeholder/cuerpo-fit.jpg"],
+            "images": ["cfit.png","cfit_2.png","cfit_3.png"],
             "features": [
                 {
                     "id": 1,

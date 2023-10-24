@@ -6,7 +6,7 @@
                     <div class="loading-content">
                         <div class="logo logo-secondary">
                             <transition appear>
-                                <img class="animated zoomIn" v-if="show" src="assets/img/logo/logo-2.svg" alt="Logo">
+                                <img class="animated zoomIn" v-if="show" src="/assets/img/logo/logo-2.svg" alt="Logo">
                             </transition>
                         </div>
                     </div>
@@ -34,3 +34,10 @@
         }
     }
 </script>
+
+<style>
+  img{
+        width: 12em;
+        height: 12em;
+    }
+</style>

@@ -1,6 +1,6 @@
 <template>
     <router-link title="Logo" class="logo primary-logo transform-scale-h" to="/">
-        <img src="assets/img/logo/logo.svg" alt="Logo">
+        <img src="/assets/img/logo/logo.svg" alt="Logo">
     </router-link>
 </template>
 
@@ -9,3 +9,12 @@
         name: 'Header-Logo'
     }
 </script>
+
+<style lang="scss" scoped>
+
+img{
+    width: 4em;
+    height: 4em;
+}
+
+</style>

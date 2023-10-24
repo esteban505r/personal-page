@@ -8,16 +8,16 @@
         
         <p class="input-group gutter-width-30">
             <span class="gutter-width">
-                <input v-model="form.author" id="author" name="author" type="text" value="" size="30" maxlength="245" required="required" placeholder="Name *">
+                <input v-model="form.author" id="author" name="author" type="text"  size="30" maxlength="245" required="required" placeholder="Name *">
             </span>
             
             <span class="gutter-width">
-                <input v-model="form.email" id="email" name="email" type="email" value="" size="30" maxlength="100" required="required" placeholder="Email *">
+                <input v-model="form.email" id="email" name="email" type="email"  size="30" maxlength="100" required="required" placeholder="Email *">
             </span>
         </p>
         
         <p class="comment-form-url">
-            <input v-model="form.url" id="url" name="url" type="url" value="" size="30" maxlength="200" placeholder="Website *">
+            <input v-model="form.url" id="url" name="url" type="url"  size="30" maxlength="200" placeholder="Website *">
         </p>
         
         <p class="comment-form-cookies-consent custom-control custom-checkbox">
