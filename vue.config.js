@@ -34,11 +34,24 @@ module.exports = {
         });
 
         if (process.env.NODE_ENV === 'production') {
-            config.module.rule('css').oneOf('vue').use('mini-css-extract-plugin-loader').loader(MiniCssExtractPlugin.loader).end();
-            config.module.rule('css').oneOf('normal').use('mini-css-extract-plugin-loader').loader(MiniCssExtractPlugin.loader).end();
+            config.module.rule('scss').oneOf('vue').use('mini-css-extract-plugin-loader').loader(MiniCssExtractPlugin.loader).end();
+            config.module.rule('scss').oneOf('normal').use('mini-css-extract-plugin-loader').loader(MiniCssExtractPlugin.loader).end();
         }
     },
     configureWebpack: {
+        module:{
+          rules:[
+            {
+              test: /\.scss$/,
+              use: [
+                'style-loader', // Inject styles into the DOM
+                'css-loader',   // Handle CSS imports
+                'sass-loader'   // Process SASS/SCSS files
+              ],
+            },
+            // ... other rules for different file types ...
+          ],
+        },
         plugins: [
             new CopyWebpackPlugin({
                 patterns: [
