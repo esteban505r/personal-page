@@ -14,7 +14,6 @@ module.exports = {
     assetsDir: 'assets',
     productionSourceMap: false,
     css: {
-        extract: process.env.NODE_ENV === 'production',
         sourceMap: false,
         loaderOptions: {}
     },
@@ -27,31 +26,12 @@ module.exports = {
             logging: 'warn'
         }
     },
-    lintOnSave: process.env.NODE_ENV !== 'production',
     chainWebpack: config => {
         config.module.rule('vue').use('vue-loader').tap(args => {
             args.compilerOptions.whitespace = 'preserve';
         });
-
-        if (process.env.NODE_ENV === 'production') {
-            config.module.rule('scss').oneOf('vue').use('mini-css-extract-plugin-loader').loader(MiniCssExtractPlugin.loader).end();
-            config.module.rule('scss').oneOf('normal').use('mini-css-extract-plugin-loader').loader(MiniCssExtractPlugin.loader).end();
-        }
     },
     configureWebpack: {
-        module:{
-          rules:[
-            {
-              test: /\.scss$/,
-              use: [
-                'style-loader', // Inject styles into the DOM
-                'css-loader',   // Handle CSS imports
-                'sass-loader'   // Process SASS/SCSS files
-              ],
-            },
-            // ... other rules for different file types ...
-          ],
-        },
         plugins: [
             new CopyWebpackPlugin({
                 patterns: [
@@ -60,10 +40,6 @@ module.exports = {
                     { from: 'src/assets/img', to: 'assets/img' }
                 ]
             }),
-            ...(process.env.NODE_ENV === 'production' ? [new MiniCssExtractPlugin({
-                filename: "[name].css",
-                chunkFilename: "[id].css",
-            })] : [])
         ]
     }
 };

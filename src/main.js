@@ -3,7 +3,6 @@ import Vuex from 'vuex';
 import App from './App';
 import BootstrapVue from 'bootstrap-vue';
 import router from './router';
-import 'animate.css';
 import VAnimateCss from 'v-animate-css';
 import store from './store';
 import smoothscroll from 'smoothscroll-polyfill';

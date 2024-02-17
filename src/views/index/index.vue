@@ -1,11 +1,7 @@
 <template>
     <div id="home-index">
-        <Loading />
-
-        <Header />
 
        <main id="main" class="site-main">
-           <PageTitle />
 
             <section id="my-works" class="block spacer m-top-xl">
                 <div class="wrapper">
@@ -14,7 +10,6 @@
                     </h2>
                 </div>
 
-                <MyWorks />
             </section>
 
             <section id="contact" class="block spacer p-top-xl">
@@ -29,30 +24,17 @@
                 </div>
             </section>
 
-            <Blog />
         </main>
     
-        <Footer />
     </div>
 </template>
 
 <script>
-    import Loading from '../../components/Loading/Loading';
-    import Header from '../../blocks/header/Header';
-    import Footer from '../../blocks/footer/Footer';
 
-    import PageTitle from '../../blocks/index/PageTitle';
-    import MyWorks from '../../blocks/works/MyWorks';
-    import Blog from '../../blocks/index/Blog';
 
     export default {
         components: {
-            Loading,
-            Header,
-            PageTitle,
-            MyWorks,
-            Blog,
-            Footer
+         
         },
         mounted: function() {
             document.body.classList.add( 'home' );
