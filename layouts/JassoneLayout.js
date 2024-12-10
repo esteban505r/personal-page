@@ -32,7 +32,7 @@ const JassoneLayout = ({ darkLogo = true }) => {
           <div className="mobile_in">
             <div className="logo">
               <a href="#">
-                <img src="/img/logo/dark.png" alt="" />
+                <img src="<%= config.baseUrl %>/img/logo/dark.png" alt="" />
               </a>
             </div>
             <div className="trigger" onClick={() => setMenuToggle(!menuToggle)}>
