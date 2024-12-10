@@ -6,7 +6,7 @@ const isProd = process.env.NODE_ENV === 'production'
 
 
 const nextConfig = {
-    basePath: isProd ? '/nextjs/personal-page/' : '',
+    basePath: isProd ? '/nextjs/personal-page' : '',
     output: 'export',
    
     // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
