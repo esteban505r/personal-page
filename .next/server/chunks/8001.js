@@ -500,9 +500,9 @@ module.exports = memoizeOne;
 
 // Exports
 module.exports = {
-	"style": {"fontFamily":"'__Montserrat_9bd939', '__Montserrat_Fallback_9bd939'","fontStyle":"normal"},
-	"className": "__className_9bd939",
-	"variable": "__variable_9bd939"
+	"style": {"fontFamily":"'__Montserrat_3cac72', '__Montserrat_Fallback_3cac72'","fontStyle":"normal"},
+	"className": "__className_3cac72",
+	"variable": "__variable_3cac72"
 };
 
 
@@ -513,9 +513,9 @@ module.exports = {
 
 // Exports
 module.exports = {
-	"style": {"fontFamily":"'__Mulish_88a0ed', '__Mulish_Fallback_88a0ed'","fontStyle":"normal"},
-	"className": "__className_88a0ed",
-	"variable": "__variable_88a0ed"
+	"style": {"fontFamily":"'__Mulish_eb6876', '__Mulish_Fallback_eb6876'","fontStyle":"normal"},
+	"className": "__className_eb6876",
+	"variable": "__variable_eb6876"
 };
 
 
@@ -526,9 +526,9 @@ module.exports = {
 
 // Exports
 module.exports = {
-	"style": {"fontFamily":"'__Poppins_15de8c', '__Poppins_Fallback_15de8c'","fontStyle":"normal"},
-	"className": "__className_15de8c",
-	"variable": "__variable_15de8c"
+	"style": {"fontFamily":"'__Poppins_dfb93e', '__Poppins_Fallback_dfb93e'","fontStyle":"normal"},
+	"className": "__className_dfb93e",
+	"variable": "__variable_dfb93e"
 };
 
 
@@ -550,7 +550,7 @@ Object.defineProperty(exports, "addBasePath", ({
 }));
 const _addpathprefix = __webpack_require__(893);
 const _normalizetrailingslash = __webpack_require__(1094);
-const basePath = "/nextjs/personal-page" || 0;
+const basePath =  false || "";
 function addBasePath(path, required) {
     return (0, _normalizetrailingslash.normalizePathTrailingSlash)( false ? 0 : (0, _addpathprefix.addPathPrefix)(path, basePath));
 }
@@ -5156,7 +5156,7 @@ Object.defineProperty(exports, "hasBasePath", ({
     }
 }));
 const _pathhasprefix = __webpack_require__(4614);
-const basePath = "/nextjs/personal-page" || 0;
+const basePath =  false || "";
 function hasBasePath(path) {
     return (0, _pathhasprefix.pathHasPrefix)(path, basePath);
 }
@@ -5221,7 +5221,7 @@ Object.defineProperty(exports, "removeBasePath", ({
     }
 }));
 const _hasbasepath = __webpack_require__(4374);
-const basePath = "/nextjs/personal-page" || 0;
+const basePath =  false || "";
 function removeBasePath(path) {
     if (false) {}
     // Can't trim the basePath if it has zero length!

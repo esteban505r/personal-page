@@ -148,7 +148,7 @@ module.exports = require("next/dist/shared/lib/server-inserted-html");
 
 /***/ }),
 
-/***/ 3321:
+/***/ 9305:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -288,7 +288,7 @@ const Page = ()=>{
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [8001,5271,1708,2739,1691,8071,8873], () => (__webpack_exec__(3321)));
+var __webpack_exports__ = __webpack_require__.X(0, [8001,5271,1708,2739,1691,8071,8873], () => (__webpack_exec__(9305)));
 module.exports = __webpack_exports__;
 
 })();
