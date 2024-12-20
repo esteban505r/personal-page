@@ -7,12 +7,12 @@
   "/index-5/page": "app/index-5/page.js",
   "/index-6/page": "app/index-6/page.js",
   "/index-7/page": "app/index-7/page.js",
+  "/intro/page": "app/intro/page.js",
   "/index-1/dark/page": "app/index-1/dark/page.js",
   "/index-2/dark/page": "app/index-2/dark/page.js",
   "/index-3/dark/page": "app/index-3/dark/page.js",
   "/index-4/dark/page": "app/index-4/dark/page.js",
   "/index-5/dark/page": "app/index-5/dark/page.js",
   "/index-6/dark/page": "app/index-6/dark/page.js",
-  "/index-7/dark/page": "app/index-7/dark/page.js",
-  "/intro/page": "app/intro/page.js"
+  "/index-7/dark/page": "app/index-7/dark/page.js"
 }

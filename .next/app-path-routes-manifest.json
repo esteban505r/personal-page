@@ -7,12 +7,12 @@
   "/index-5/page": "/index-5",
   "/index-6/page": "/index-6",
   "/index-7/page": "/index-7",
+  "/intro/page": "/intro",
   "/index-1/dark/page": "/index-1/dark",
   "/index-2/dark/page": "/index-2/dark",
   "/index-3/dark/page": "/index-3/dark",
   "/index-4/dark/page": "/index-4/dark",
   "/index-5/dark/page": "/index-5/dark",
   "/index-6/dark/page": "/index-6/dark",
-  "/index-7/dark/page": "/index-7/dark",
-  "/intro/page": "/intro"
+  "/index-7/dark/page": "/index-7/dark"
 }
